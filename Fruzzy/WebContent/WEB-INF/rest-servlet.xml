@@ -13,11 +13,13 @@
 	<context:component-scan base-package="fruzzy.controller" />
 
 	<mvc:annotation-driven />
-	<mvc:resources mapping="/css/**" location="/css/" />
-	<mvc:resources mapping="/js/**" location="/js/" />
-	<mvc:resources mapping="/img/**" location="/img/" />
-	<mvc:resources mapping="/fonts/**" location="/fonts/" />
-	<mvc:resources mapping="/scss/**" location="/scss/" />
+	<mvc:resources mapping="/css/**" location="/WEB-INF/css/" />
+	<mvc:resources mapping="/js/**" location="/WEB-INF/js/" />
+	<mvc:resources mapping="/img/**" location="/WEB-INF/img/" />
+	<mvc:resources mapping="/fonts/**" location="/WEB-INF/fonts/" />
+	<mvc:resources mapping="/scss/**" location="/WEB-INF/scss/" />
+	
+	<!-- <mvc:resources location="/resources/" mapping="/resources/**"/> -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
             <value>/WEB-INF/views/</value>
