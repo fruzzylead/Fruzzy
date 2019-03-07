@@ -1,8 +1,17 @@
 package fruzzy.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table
 public class SigninModel {
-	
+	@Column
+	@Id
 	private String email;
+	@Column
 	private String password;
 	public String getEmail() {
 		return email;

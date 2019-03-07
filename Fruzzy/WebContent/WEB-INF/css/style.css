@@ -1,6 +1,6 @@
-body {
+/* body {
   background: #333;
-  color: #fff; }
+  color: #fff; } */
 
 .navbar {
   border-bottom: #008ed6 3px solid;
@@ -19,7 +19,8 @@ body {
     width: 100%;
     min-height: 600px; }
   #home-section .home-inner {
-    padding-top: 120px; }
+    padding-top: 120px; 
+    color: #1f1;}
   #home-section .card-form {
     opacity: 0.8; }
   #home-section .fa {
@@ -30,7 +31,7 @@ body {
     font-size: 30px; }
 
 #explore-section .fa, #share-section .fa {
-  color: #fff;
+  color: #000;
   background: #333;
   padding: 4px;
   margin-right: 0px;

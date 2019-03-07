@@ -33,7 +33,7 @@
 				<br /> Date of Birth:&nbsp;
 				<form:input path="dob" type="date" placeholder="Your date of birth" />
 				<br />
-				<form:button type="submit" label="Sign Up" style>Sign Up</form:button>
+				<form:button type="submit" label="Sign Up" >Sign Up</form:button>
 				<br />
 			</fieldset>
 		</form:form>
