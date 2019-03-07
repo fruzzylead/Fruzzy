@@ -1,6 +1,6 @@
 package fruzzy.model;
 
-public class LoginModel {
+public class SigninModel {
 	
 	private String email;
 	private String password;
