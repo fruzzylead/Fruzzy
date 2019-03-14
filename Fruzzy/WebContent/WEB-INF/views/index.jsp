@@ -10,5 +10,6 @@
 Hii.
 
 <a href="homepage"> Click Here </a>
+<a href="profile"> Cick</a>
 </body>
 </html>

@@ -28,6 +28,16 @@ public class TestController {
 		m.setViewName("homepage");
 		return m;
 	}
+	
+	@RequestMapping("/profile")
+	public ModelAndView getProfile(Model model) {
+		ModelAndView m = new ModelAndView();
+		model.addAttribute("signinModel", new SigninModel());
+		model.addAttribute("signupModel", new SignupModel());
+		m.setViewName("profile");
+		return m;
+	}
+
 
 	@RequestMapping("/signin")
 	public ModelAndView signIn(@ModelAttribute SigninModel signinModel) {
