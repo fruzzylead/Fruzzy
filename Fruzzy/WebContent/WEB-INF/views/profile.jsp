@@ -39,112 +39,252 @@
 			</div>
 	</nav>
 	<!--############## HOME SECTION #############-->
-	<div id="user-cover">
-		<img class="img-fluid"
-			src="http://www.coverbash.com/wp-content/covers/abstract.jpg">
-		<div class="dark-overlay">
-			<div class="home-inner">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12"></div>
+	<div class="user-cover">
+		<div class="profile-header-background d-none d-lg-block d-md-block">
+			<img class="img-fluid"
+				src="https://images.pexels.com/photos/990824/pexels-photo-990824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+				alt="profile-header-background">
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="profile-info-left">
+					<div class="text-center">
+						<img src="img/adult-aged-beard-665194.jpg" alt="Avatar"
+							class="avatar rounded-circle" width="250px" height="250px" />
+						<h2 class="username">Username</h2>
 					</div>
-					<div class="row">
-						<div class="col-lg-4">
-							<span>&nbsp;&nbsp;&nbsp;</span>
-						</div>
-						<div class="col-lg-4 profile-cover"></div>
-						<div class="col-lg-4"></div>
-						<div class="row">
-							<div class="col-lg-12">
-								<span style="padding-bottom: 100px;"></span>
+					<div class="action-buttons text-center justify-content-center">
+						<div class="row text-center">
+							<div class="col">
+								<a href="#" class="btn btn-success btn-block"><i
+									class="fas fa-plus-circle"></i>Follow</a>
+							</div>
+							<div class="col">
+								<a href="#" class="btn btn-primary btn-block"><i
+									class="fas fa-envelope"></i> Message</a>
 							</div>
 						</div>
 					</div>
-					<div class="row"></div>
+				</div>
+			</div>
+			<div class="col-md-8 align-middle">
+				<div class="profile-info-right">
+					<div class="row">
+						<div class="section about-me-section">
+							<h3>About Me</h3>
+							<p>Energistically administrate 24/7 portals and enabled
+								catalysts for change. Objectively revolutionize client-centered
+								e-commerce via covalent scenarios. Continually envisioneer.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="section statistics-section">
+							<h3>Statistics</h3>
+							<p>
+								<span class="badge">332</span> Following
+							</p>
+							<p>
+								<span class="badge">124</span> Followers
+							</p>
+							<p>
+								<span class="badge">620</span> Likes
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+
+
+
+
+
+
+
 	<!-- ############### USER PROFILE ################### -->
 	<div id="gallery">
-		<div>
-			<img src="https://picsum.photos/600/600/?image=512"
-				data-toggle="modal" data-target="#mediaModal" />
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#mediaModal"
+				src="https://picsum.photos/600/600/?image=512" alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img src="https://picsum.photos/600/600/?image=513"
-				data-toggle="modal" data-target="#media2Modal" />
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media2Modal"
+				src="https://picsum.photos/600/600/?image=513" alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media3Modal"
 				src="https://images.pexels.com/photos/555017/pexels-photo-555017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media3Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media4Modal"
 				src="https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media4Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media5Modal"
 				src="https://images.pexels.com/photos/1930310/pexels-photo-1930310.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media5Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media6Modal"
 				src="https://images.pexels.com/photos/931007/pexels-photo-931007.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-				data-toggle="modal" data-target="#media6Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media7Modal"
 				src="https://images.pexels.com/photos/1295036/pexels-photo-1295036.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media7Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media8Modal"
 				src="https://images.pexels.com/photos/1232594/pexels-photo-1232594.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media8Modal" />
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
+				<h4 class="card-title">John Doe</h4>
+				<p class="card-text">Some example text.</p>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
+			</div>
+			<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+				<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+				<i class="far fa-trash-alt"></i>
+			</div>
 		</div>
-		<div>
-			<img
+		<div class="card">
+			<div class="card-header d-xs-none d-lg-none d-md-none d-sm-block">
+				<img class="rounded" src="img/adult-aged-beard-665194.png"
+					width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
+			</div>
+			<img class="card-img-top" data-toggle="modal"
+				data-target="#media9Modal"
 				src="https://images.pexels.com/photos/1906819/pexels-photo-1906819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-				data-toggle="modal" data-target="#media9Modal" />
-		</div>
-
-		<!-- 		<div class="card" style="width:100%; display: inline-block">
-			<img class="card-img-top" src="https://picsum.photos/600/600/?image=512" alt="Card image">
-			<div class="card-body">
+				alt="Card image">
+			<div
+				class="card-body image-caption-container d-xs-none d-lg-none d-md-none d-sm-block">
 				<h4 class="card-title">John Doe</h4>
 				<p class="card-text">Some example text.</p>
-				<a href="#" class="btn btn-primary stretched-link">See Profile</a>
+				<!-- <a href="#" class="btn btn-primary stretched-link">See Profile</a> -->
 			</div>
 		</div>
-		
-		<div class="card" style="width:100%; display: inline-block">
-			<img class="card-img-top" src="https://images.pexels.com/photos/555017/pexels-photo-555017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Card image">
-			<div class="card-body">
-				<h4 class="card-title">John Doe</h4>
-				<p class="card-text">Some example text.</p>
-				<a href="#" class="btn btn-primary stretched-link">See Profile</a>
-			</div>
+		<div class="card-footer d-xs-none d-lg-none d-md-none d-sm-block">
+			<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
+			<i class="far fa-trash-alt"></i>
 		</div>
-		
-		<div class="card" style="width:100%; display: inline-block">
-			<img class="card-img-top" src="https://picsum.photos/600/600/?image=513" alt="Card image">
-			<div class="card-body">
-				<h4 class="card-title">John Doe</h4>
-				<p class="card-text">Some example text.</p>
-				<a href="#" class="btn btn-primary stretched-link">See Profile</a>
-			</div>
-		</div> -->
-
 	</div>
-	<div class="container">
-		<div class="row"></div>
-
-	</div>
-
 	<!--############ MAIN FOOTER ############-->
 	<!-- 	<footer id="main-footer" class="bg-dark">
 		<div class="container">
@@ -165,14 +305,19 @@
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="mediaModalTitle">Username</h5>
+					<img class="rounded" src="img/adult-aged-beard-665194.png"
+						width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
 					<button class="close" data-dismiss="modal">
 						<span>&times;</span>
 					</button>
 				</div>
 				<div class="modal-body justify-content-center">
-					<img class="img-fluid"
-						src="https://picsum.photos/1920/1080/?image=512" />
+					<div class="modal-image-container">
+						<img class=" modal-img"
+							src="https://picsum.photos/1920/1080/?image=512" />
+						<h4 class="modal-caption-1">John Doe</h4>
+						<p class="modal-caption-2">Some example</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
@@ -181,19 +326,23 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media2Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="mediaModalTitle">Username</h5>
+					<img class="rounded" src="img/adult-aged-beard-665194.png"
+						width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
 					<button class="close" data-dismiss="modal">
 						<span>&times;</span>
 					</button>
 				</div>
 				<div class="modal-body justify-content-center">
-					<img class="img-fluid"
-						src="https://picsum.photos/1920/1080/?image=513" />
+					<div>
+						<img class="img-fluid"
+							src="https://picsum.photos/1920/1080/?image=513" />
+						<h4 class="modal-caption-1">John Doe</h4>
+						<p class="modal-caption-2">Some example</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
@@ -202,19 +351,23 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media3Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="mediaModalTitle">Username</h5>
+					<img class="rounded" src="img/adult-aged-beard-665194.png"
+						width="30" height="30" alt=""><strong>&nbsp;&nbsp;&nbsp;Username</strong>
 					<button class="close" data-dismiss="modal">
 						<span>&times;</span>
 					</button>
 				</div>
 				<div class="modal-body justify-content-center">
-					<img class="img-fluid"
-						src="https://images.pexels.com/photos/555017/pexels-photo-555017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+					<div>
+						<img class="img-fluid"
+							src="https://images.pexels.com/photos/555017/pexels-photo-555017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" />
+						<h4 class="modal-caption-1">John Doe</h4>
+						<p class="modal-caption-2">Some example</p>
+					</div>
 				</div>
 				<div class="modal-footer">
 					<i class="far fa-thumbs-up"></i> <i class="far fa-comment-dots"></i>
@@ -243,7 +396,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media5Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
@@ -264,7 +416,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media6Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
@@ -285,7 +436,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media7Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
@@ -306,7 +456,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="modal fade text-dark" id="media8Modal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
 			<div class="modal-content">
@@ -347,10 +496,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
-
 	<!--########### CONTACT MODAL ###########-->
 	<div class="modal fade text-dark" id="contactModal">
 		<div class="modal-dialog justify-content-center modal-dialog-centered">
@@ -383,8 +528,6 @@
 			</div>
 		</div>
 	</div>
-
-
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
