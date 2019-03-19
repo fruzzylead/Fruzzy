@@ -10,6 +10,6 @@
 Hii.
 
 <a href="homepage"> Click Here </a>
-<a href="profile"> Cick</a>
+<a href="dashboard"> Cick</a>
 </body>
 </html>

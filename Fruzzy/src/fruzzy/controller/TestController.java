@@ -29,12 +29,12 @@ public class TestController {
 		return m;
 	}
 	
-	@RequestMapping("/profile")
+	@RequestMapping("/dashboard")
 	public ModelAndView getProfile(Model model) {
 		ModelAndView m = new ModelAndView();
 		model.addAttribute("signinModel", new SigninModel());
 		model.addAttribute("signupModel", new SignupModel());
-		m.setViewName("profile");
+		m.setViewName("dashboard");
 		return m;
 	}
 
