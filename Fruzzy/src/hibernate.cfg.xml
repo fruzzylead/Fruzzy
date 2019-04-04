@@ -7,15 +7,15 @@
     <session-factory>
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.url">jdbc:mysql://192.168.1.62:3306/Fruzzy?createDatabaseIfNotExist=true</property>
+        <property name="connection.url">jdbc:mysql://192.168.1.62:3306/FruzzyTest?createDatabaseIfNotExist=true</property>
         <property name="connection.username">root</property>
         <property name="connection.password">Libsys@1234</property>
 
         <!-- JDBC connection pool settings ... using built-in test pool -->
-        <property name="connection.pool_size">1</property>
+        <!-- <property name="connection.pool_size">1</property> -->
 
         <!-- Select your SQL dialect -->
-        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
 
         <!-- Echo the SQL to stdout -->
         <property name="show_sql">true</property>

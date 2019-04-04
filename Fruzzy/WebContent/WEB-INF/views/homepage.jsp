@@ -11,7 +11,7 @@
 <title>Fruzzy</title>
 </head>
 <body>
-
+	<div style="color:red;">${error}</div>
 	<div class="signUp" style="display: block; margin-left: 500px; max-width: 400px;">
 		<form:form method="post" modelAttribute="signupModel" action="signUp">
 			<fieldset>
@@ -41,11 +41,11 @@
 
 	<div class="signIn"
 		style="display: block; margin-left: 500px; margin-top: 100px; max-width: 400px;">
-		<form:form method="post" modelAttribute="signinModel" action="signin">
+		<form:form method="post" modelAttribute="signinModel" action="signIn">
 			<fieldset>
 				<legend>Sign In </legend>
-				Email:&nbsp;
-				<form:input path="email" type="email" placeholder="Your email..." />
+				Username:&nbsp;
+				<form:input path="username" type="text" placeholder="Your username..." />
 				<br /> Password:&nbsp;
 				<form:password path="password"
 					placeholder="Type in your password..." />

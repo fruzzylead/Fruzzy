@@ -9,7 +9,8 @@
 <body>
 Hii.
 
-<a href="homepage"> Click Here </a>
-<a href="dashboard"> Cick</a>
+<a href="homepage"> Click Here </a><br/>
+<a href="dashboard"> Click for dashboard.</a><br/>
+<a href="testjsp"> Click for testing.</a>
 </body>
 </html>

@@ -2,29 +2,14 @@ package fruzzy.model;
 
 import java.util.Date;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-import org.springframework.stereotype.Component;
 
 
-@Component
-@Entity
-@Table
 public class SignupModel {
-	
-	@Id
-	@Column
+
 	private String username;
-	@Column
 	private String email;
-	@Column
 	private String gender;
-	@Column 	
 	private Date dob;
-	@Column
 	private String password;
 
 	public String getEmail() {
@@ -56,6 +41,11 @@ public class SignupModel {
 	}
 	public void setDob(Date dob) {
 		this.dob = dob;
+	}
+	@Override
+	public String toString() {
+		return "SignupModel [username=" + username + ", email=" + email + ", gender=" + gender + ", dob=" + dob
+				+ ", password=" + password + "]";
 	}
 	
 	
